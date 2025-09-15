@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera Fitness AI Chatbot ROI Calculator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        .calculator {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .input-section, .results-section {
+            background: #f7fafc;
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #e2e8f0;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .result-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .result-title {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .result-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .roi-positive {
+            color: #38a169;
+        }
+        
+        .roi-negative {
+            color: #e53e3e;
+        }
+        
+        .breakdown {
+            background: #edf2f7;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .breakdown h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+        
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .breakdown-item:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .assumptions {
+            background: #fff5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #f56565;
+        }
+        
+        .assumptions h3 {
+            color: #c53030;
+            margin-bottom: 10px;
+        }
+        
+        .assumptions ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .assumptions li {
+            margin-bottom: 5px;
+            color: #744210;
+        }
+        
+        @media (max-width: 768px) {
+            .calculator {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏋️‍♂️ Carrera Fitness AI Chatbot ROI Calculator</h1>
+        
+        <div class="calculator">
+            <div class="input-section">
+                <h3>📊 Current Business Metrics</h3>
+                
+                <div class="input-group">
+                    <label for="monthlyVisitors">Monthly Website Visitors</label>
+                    <input type="number" id="monthlyVisitors" value="1000" min="0">
+                </div>
+                
+                <div class="input-group">
+                    <label for="currentConversion">Current Lead Conversion Rate (%)</label>
+                    <input type="number" id="currentConversion" value="15" min="0" max="100">
+                </div>
+                
+                <div class="input-group">
+                    <label for="leadToMember">Lead to Member Conversion (%)</label>
+                    <input type="number" id="leadToMember" value="20" min="0" max="100">
+                </div>
+                
+                <div class="input-group">
+                    <label for="avgMembershipValue">Average Membership Value (TL)</label>
+                    <input type="number" id="avgMembershipValue" value="500" min="0">
+                </div>
+                
+                <div class="input-group">
+                    <label for="monthlyStaffCost">Monthly Customer Service Cost (TL)</label>
+                    <input type="number" id="monthlyStaffCost" value="5000" min="0">
+                </div>
+            </div>
+            
+            <div class="results-section">
+                <h3>💰 AI Chatbot Impact</h3>
+                
+                <div class="result-card">
+                    <div class="result-title">New Lead Conversion Rate</div>
+                    <div class="result-value" id="newConversion">45%</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-title">Additional Monthly Leads</div>
+                    <div class="result-value" id="additionalLeads">300</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-title">Additional Monthly Members</div>
+                    <div class="result-value" id="additionalMembers">60</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-title">Additional Monthly Revenue</div>
+                    <div class="result-value" id="additionalRevenue">30,000 TL</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-title">Monthly Cost Savings</div>
+                    <div class="result-value" id="costSavings">3,500 TL</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-title">Total Monthly Benefit</div>
+                    <div class="result-value roi-positive" id="totalBenefit">33,500 TL</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="breakdown">
+            <h3>📈 ROI Breakdown</h3>
+            <div class="breakdown-item">
+                <span>AI Chatbot Setup Cost:</span>
+                <span id="setupCost">20,000 TL</span>
+            </div>
+            <div class="breakdown-item">
+                <span>Monthly Operating Cost:</span>
+                <span id="monthlyCost">3,000 TL</span>
+            </div>
+            <div class="breakdown-item">
+                <span>Monthly Revenue Increase:</span>
+                <span id="revenueIncrease">30,000 TL</span>
+            </div>
+            <div class="breakdown-item">
+                <span>Monthly Cost Savings:</span>
+                <span id="monthlySavings">3,500 TL</span>
+            </div>
+            <div class="breakdown-item">
+                <span>Net Monthly Benefit:</span>
+                <span id="netBenefit">33,350 TL</span>
+            </div>
+            <div class="breakdown-item">
+                <span>Break-even Period:</span>
+                <span id="breakEven">0.1 months</span>
+            </div>
+            <div class="breakdown-item">
+                <span>12-Month ROI:</span>
+                <span id="yearlyROI" class="roi-positive">1,580%</span>
+            </div>
+        </div>
+        
+        <div class="assumptions">
+            <h3>📋 Key Assumptions</h3>
+            <ul>
+                <li>AI chatbot increases lead conversion from 15% to 45%</li>
+                <li>70% reduction in customer service costs</li>
+                <li>Average membership value of 500 TL/month</li>
+                <li>Lead-to-member conversion rate of 20%</li>
+                <li>One-time setup cost of 20,000 TL</li>
+                <li>Monthly operating cost of 3,000 TL</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function calculateROI() {
+            // Get input values
+            const monthlyVisitors = parseInt(document.getElementById('monthlyVisitors').value) || 0;
+            const currentConversion = parseInt(document.getElementById('currentConversion').value) || 0;
+            const leadToMember = parseInt(document.getElementById('leadToMember').value) || 0;
+            const avgMembershipValue = parseInt(document.getElementById('avgMembershipValue').value) || 0;
+            const monthlyStaffCost = parseInt(document.getElementById('monthlyStaffCost').value) || 0;
+            
+            // AI chatbot improvements
+            const newConversionRate = 45; // 45% with AI
+            const costReduction = 0.7; // 70% cost reduction
+            
+            // Calculate current metrics
+            const currentLeads = Math.round(monthlyVisitors * currentConversion / 100);
+            const currentMembers = Math.round(currentLeads * leadToMember / 100);
+            const currentRevenue = currentMembers * avgMembershipValue;
+            
+            // Calculate AI chatbot impact
+            const newLeads = Math.round(monthlyVisitors * newConversionRate / 100);
+            const additionalLeads = newLeads - currentLeads;
+            const additionalMembers = Math.round(additionalLeads * leadToMember / 100);
+            const additionalRevenue = additionalMembers * avgMembershipValue;
+            const costSavings = Math.round(monthlyStaffCost * costReduction);
+            const totalBenefit = additionalRevenue + costSavings;
+            
+            // Calculate ROI
+            const setupCost = 20000;
+            const monthlyCost = 3000;
+            const netBenefit = totalBenefit - monthlyCost;
+            const breakEven = setupCost / netBenefit;
+            const yearlyROI = ((netBenefit * 12) - setupCost) / setupCost * 100;
+            
+            // Update display
+            document.getElementById('newConversion').textContent = newConversionRate + '%';
+            document.getElementById('additionalLeads').textContent = additionalLeads.toLocaleString();
+            document.getElementById('additionalMembers').textContent = additionalMembers.toLocaleString();
+            document.getElementById('additionalRevenue').textContent = additionalRevenue.toLocaleString() + ' TL';
+            document.getElementById('costSavings').textContent = costSavings.toLocaleString() + ' TL';
+            document.getElementById('totalBenefit').textContent = totalBenefit.toLocaleString() + ' TL';
+            
+            document.getElementById('setupCost').textContent = setupCost.toLocaleString() + ' TL';
+            document.getElementById('monthlyCost').textContent = monthlyCost.toLocaleString() + ' TL';
+            document.getElementById('revenueIncrease').textContent = additionalRevenue.toLocaleString() + ' TL';
+            document.getElementById('monthlySavings').textContent = costSavings.toLocaleString() + ' TL';
+            document.getElementById('netBenefit').textContent = netBenefit.toLocaleString() + ' TL';
+            document.getElementById('breakEven').textContent = breakEven.toFixed(1) + ' months';
+            document.getElementById('yearlyROI').textContent = yearlyROI.toFixed(0) + '%';
+        }
+        
+        // Add event listeners
+        document.getElementById('monthlyVisitors').addEventListener('input', calculateROI);
+        document.getElementById('currentConversion').addEventListener('input', calculateROI);
+        document.getElementById('leadToMember').addEventListener('input', calculateROI);
+        document.getElementById('avgMembershipValue').addEventListener('input', calculateROI);
+        document.getElementById('monthlyStaffCost').addEventListener('input', calculateROI);
+        
+        // Calculate on page load
+        calculateROI();
+    </script>
+</body>
+</html>

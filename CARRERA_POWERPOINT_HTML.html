@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera Fitness AI Chatbot - PowerPoint Sunumu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f2f5;
+        }
+        
+        .slide {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            box-sizing: border-box;
+            page-break-after: always;
+            background: white;
+            position: relative;
+        }
+        
+        .slide:nth-child(odd) {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .slide:nth-child(even) {
+            background: white;
+            color: #2d3748;
+        }
+        
+        .slide h1 {
+            font-size: 3.5em;
+            margin: 0 0 30px 0;
+            text-align: center;
+            font-weight: 700;
+        }
+        
+        .slide h2 {
+            font-size: 2.5em;
+            margin: 0 0 40px 0;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .slide h3 {
+            font-size: 2em;
+            margin: 0 0 30px 0;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .slide p {
+            font-size: 1.4em;
+            line-height: 1.6;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .slide ul {
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin: 30px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .slide li {
+            margin: 15px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .slide li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .slide:nth-child(odd) li:before {
+            color: #ffd700;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        .feature-card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .slide:nth-child(even) .feature-card {
+            background: #f8f9fa;
+            border: 1px solid #e2e8f0;
+            color: #2d3748;
+        }
+        
+        .feature-card h4 {
+            font-size: 1.5em;
+            margin: 0 0 20px 0;
+            color: #667eea;
+        }
+        
+        .slide:nth-child(odd) .feature-card h4 {
+            color: #ffd700;
+        }
+        
+        .roi-table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .roi-table th {
+            background: #667eea;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        .roi-table td {
+            padding: 20px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 1.1em;
+        }
+        
+        .roi-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .highlight-box {
+            background: rgba(255,255,255,0.2);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            border-left: 5px solid #ffd700;
+        }
+        
+        .slide:nth-child(even) .highlight-box {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+        }
+        
+        .cta-box {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 1.2em;
+            opacity: 0.7;
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+        
+        @media print {
+            .slide {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- SLIDE 1: BAŞLIK -->
+    <div class="slide">
+        <h1>🏋️‍♂️ CARRERA FITNESS<br>AI CHATBOT ÇÖZÜMÜ</h1>
+        <p style="font-size: 1.8em; margin-top: 40px;">Potansiyel Müşteri Yakalama ve Müşteri Hizmetlerinde Devrim</p>
+        
+        <div class="highlight-box" style="margin-top: 60px;">
+            <h3>Ana Faydalar</h3>
+            <ul style="text-align: left; display: inline-block;">
+                <li>3x Daha Fazla Potansiyel Müşteri</li>
+                <li>7/24 Müşteri Desteği</li>
+                <li>%70 Maliyet Tasarrufu</li>
+                <li>%500 ROI</li>
+            </ul>
+        </div>
+        <div class="slide-number">1/17</div>
+    </div>
+
+    <!-- SLIDE 2: MEVCUT SORUN -->
+    <div class="slide">
+        <h2>🎯 MEVCUT PAZAR SORUNU</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Ana Sorunlar</h3>
+                <ul>
+                    <li><strong>%70 Potansiyel Müşteri Kaybı</strong><br>Web sitesi ziyaretçileri iletişim kurmadan ayrılıyor</li>
+                    <li><strong>Sınırlı Erişilebilirlik</strong><br>Personel 7/24 müsait olamıyor</li>
+                    <li><strong>Dil Bariyerleri</strong><br>Türkçe/İngilizce müşteri desteği gerekiyor</li>
+                    <li><strong>Manuel Süreçler</strong><br>Zaman alıcı, hata yapmaya açık</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Sektör İstatistikleri</h3>
+                <ul>
+                    <li><strong>Fitness Sektörü:</strong> %15 dönüşüm oranı</li>
+                    <li><strong>AI Chatbotlar:</strong> %67 artış sağlıyor</li>
+                    <li><strong>Mesai Dışı:</strong> Soruların %40'ı mesai dışında geliyor</li>
+                    <li><strong>Çok Dilli:</strong> %35 müşteri memnuniyeti artışı</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">2/17</div>
+    </div>
+
+    <!-- SLIDE 3: ÇÖZÜMÜMÜZ -->
+    <div class="slide">
+        <h2>🤖 AI CHATBOT ÇÖZÜMÜ</h2>
+        
+        <div class="highlight-box">
+            <h3>Ne İnşa Ettik?</h3>
+            <p style="font-size: 1.6em; margin: 30px 0;">Carrera Fitness için özel tasarlanmış <strong>tam kapsamlı AI destekli müşteri etkileşim sistemi</strong></p>
+        </div>
+        
+        <div class="two-column">
+            <div class="feature-card">
+                <h4>🤖 Akıllı Chatbot</h4>
+                <p>7/24 müşteri desteği</p>
+            </div>
+            <div class="feature-card">
+                <h4>📝 Potansiyel Müşteri Yakalama</h4>
+                <p>Otomatik toplama</p>
+            </div>
+            <div class="feature-card">
+                <h4>💬 WhatsApp Entegrasyonu</h4>
+                <p>Doğrudan iletişim</p>
+            </div>
+            <div class="feature-card">
+                <h4>📊 Yönetici Paneli</h4>
+                <p>Tam yönetim sistemi</p>
+            </div>
+            <div class="feature-card">
+                <h4>📈 Analitik</h4>
+                <p>Performans içgörüleri</p>
+            </div>
+            <div class="feature-card">
+                <h4>🌍 Çok Dilli</h4>
+                <p>Türkçe/İngilizce</p>
+            </div>
+        </div>
+        <div class="slide-number">3/17</div>
+    </div>
+
+    <!-- SLIDE 4: ÖZELLİKLER - AI CHATBOT -->
+    <div class="slide">
+        <h2>🎯 AKILLI AI CHATBOT</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Temel Özellikler</h3>
+                <ul>
+                    <li><strong>Bağlam Farkındalığı</strong><br>Fitness terminolojisini anlıyor</li>
+                    <li><strong>Doğal Konuşmalar</strong><br>İnsan benzeri yanıtlar</li>
+                    <li><strong>Anında Yanıtlar</strong><br>&lt; 2 saniye yanıt süresi</li>
+                    <li><strong>7/24 Erişilebilirlik</strong><br>Her zaman hazır</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Gelişmiş Özellikler</h3>
+                <ul>
+                    <li><strong>Sesli Mesaj Desteği</strong><br>Mikrofon ile konuşma</li>
+                    <li><strong>Çok Dilli</strong><br>Türkçe/İngilizce geçiş</li>
+                    <li><strong>Akıllı Yönlendirme</strong><br>Doğru departmana yönlendirme</li>
+                    <li><strong>Kişiselleştirme</strong><br>Kullanıcı geçmişine dayalı</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">4/17</div>
+    </div>
+
+    <!-- SLIDE 5: ÖZELLİKLER - POTANSİYEL MÜŞTERİ YAKALAMA -->
+    <div class="slide">
+        <h2>📝 OTOMATİK POTANSİYEL MÜŞTERİ YAKALAMA</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Akıllı Form Sistemi</h3>
+                <ul>
+                    <li><strong>Otomatik Tetikleme</strong><br>Kullanıcı sorularına dayalı</li>
+                    <li><strong>Tam Veri Toplama</strong><br>Ad, telefon, e-posta, ilgi alanları</li>
+                    <li><strong>Gerçek Zamanlı</strong><br>Anında veri depolama</li>
+                    <li><strong>Güvenli</strong><br>Şifreli veri transferi</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Entegrasyonlar</h3>
+                <ul>
+                    <li><strong>Google Sheets</strong><br>Otomatik veri kaydetme</li>
+                    <li><strong>WhatsApp</strong><br>Ön doldurulmuş mesajlar</li>
+                    <li><strong>CRM Sistemleri</strong><br>Mevcut sistemlerle entegrasyon</li>
+                    <li><strong>E-posta</strong><br>Otomatik bildirimler</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">5/17</div>
+    </div>
+
+    <!-- SLIDE 6: ÖZELLİKLER - YÖNETİCİ PANELİ -->
+    <div class="slide">
+        <h2>📊 YÖNETİCİ PANELİ VE ANALİTİK</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Potansiyel Müşteri Yönetimi</h3>
+                <ul>
+                    <li><strong>Merkezi Görünüm</strong><br>Tüm potansiyel müşteriler tek yerde</li>
+                    <li><strong>Detaylı Bilgiler</strong><br>Tam iletişim ve tercih verileri</li>
+                    <li><strong>Durum Takibi</strong><br>Potansiyel müşteri aşamaları</li>
+                    <li><strong>Filtreleme</strong><br>Tarih, kaynak, durum bazlı</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Analitik ve Raporlama</h3>
+                <ul>
+                    <li><strong>Performans Metrikleri</strong><br>Dönüşüm oranları</li>
+                    <li><strong>Kullanıcı Davranışı</strong><br>En çok sorulan sorular</li>
+                    <li><strong>Gelir Analizi</strong><br>Potansiyel müşteri değeri</li>
+                    <li><strong>Trend Analizi</strong><br>Zaman bazlı değişimler</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">6/17</div>
+    </div>
+
+    <!-- SLIDE 7: İŞ ETKİSİ -->
+    <div class="slide">
+        <h2>💰 İŞ ETKİSİ VE ROI</h2>
+        
+        <table class="roi-table">
+            <thead>
+                <tr>
+                    <th>Metrik</th>
+                    <th>Mevcut Durum</th>
+                    <th>AI ile</th>
+                    <th>İyileştirme</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Potansiyel Müşteri Yakalama</strong></td>
+                    <td>%15</td>
+                    <td>%45</td>
+                    <td><strong>3x Artış</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Yanıt Süresi</strong></td>
+                    <td>2-24 saat</td>
+                    <td>&lt; 2 saniye</td>
+                    <td><strong>99% Hızlı</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Erişilebilirlik</strong></td>
+                    <td>Mesai saatleri</td>
+                    <td>7/24</td>
+                    <td><strong>Sürekli</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Maliyet</strong></td>
+                    <td>Yüksek</td>
+                    <td>Düşük</td>
+                    <td><strong>%70 Azalma</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="highlight-box">
+            <h3>Gelir Etkisi</h3>
+            <p><strong>Mevcut:</strong> 100 ziyaretçi → 15 potansiyel müşteri → 3 üye</p>
+            <p><strong>AI ile:</strong> 100 ziyaretçi → 45 potansiyel müşteri → 12 üye</p>
+            <p><strong>ROI:</strong> %300 artış</p>
+        </div>
+        <div class="slide-number">7/17</div>
+    </div>
+
+    <!-- SLIDE 8: FİNANSAL PROJEKSİYON -->
+    <div class="slide">
+        <h2>💵 FİNANSAL ANALİZ</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Maliyet Yapısı</h3>
+                <ul>
+                    <li><strong>Kurulum:</strong> 20.000 TL (tek seferlik)</li>
+                    <li><strong>Aylık İşletme:</strong> 3.000 TL</li>
+                    <li><strong>Toplam İlk Yıl:</strong> 56.000 TL</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Gelir Projeksiyonu</h3>
+                <ul>
+                    <li><strong>Aylık Ek Gelir:</strong> 30.000 TL</li>
+                    <li><strong>Aylık Net Fayda:</strong> 27.000 TL</li>
+                    <li><strong>Yıllık Net Fayda:</strong> 324.000 TL</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>ROI Analizi</h3>
+            <ul style="text-align: center; list-style: none;">
+                <li><strong>Geri Ödeme:</strong> 3 ay</li>
+                <li><strong>İlk Yıl ROI:</strong> %500</li>
+                <li><strong>3 Yıllık ROI:</strong> %1,500</li>
+            </ul>
+        </div>
+        <div class="slide-number">8/17</div>
+    </div>
+
+    <!-- SLIDE 9: UYGULAMA ZAMAN ÇİZELGESİ -->
+    <div class="slide">
+        <h2>🚀 4 HAFTALIK UYGULAMA PLANI</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Faz 1: Kurulum (1. Hafta)</h3>
+                <ul>
+                    <li>Web sitesi entegrasyonu</li>
+                    <li>Carrera'ya özel yapılandırma</li>
+                    <li>Temel testler</li>
+                </ul>
+                
+                <h3>Faz 2: Test (2. Hafta)</h3>
+                <ul>
+                    <li>Kapsamlı test süreci</li>
+                    <li>Personel eğitimi</li>
+                    <li>Optimizasyon</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Faz 3: Lansman (3. Hafta)</h3>
+                <ul>
+                    <li>Sınırlı canlı test</li>
+                    <li>Performans izleme</li>
+                    <li>İnce ayar</li>
+                </ul>
+                
+                <h3>Faz 4: Tam Dağıtım (4. Hafta)</h3>
+                <ul>
+                    <li>Tam canlıya alma</li>
+                    <li>Pazarlama kampanyası</li>
+                    <li>Sürekli izleme</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">9/17</div>
+    </div>
+
+    <!-- SLIDE 10: REKABET AVANTAJLARI -->
+    <div class="slide">
+        <h2>🏆 REKABET AVANTAJLARI</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Geleneksel Yöntemlere Karşı</h3>
+                <ul>
+                    <li><strong>Web Formları:</strong> %5 vs. %45 dönüşüm</li>
+                    <li><strong>Telefon Desteği:</strong> Sınırlı vs. 7/24</li>
+                    <li><strong>E-posta:</strong> Yavaş vs. anında</li>
+                    <li><strong>Manuel:</strong> Hata yapmaya açık vs. otomatik</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Genel Chatbotlara Karşı</h3>
+                <ul>
+                    <li><strong>Fitness Odaklı:</strong> Spor salonu terminolojisi</li>
+                    <li><strong>Carrera Markalı:</strong> Özel tasarım ve içerik</li>
+                    <li><strong>Entegrasyon:</strong> WhatsApp ve form sistemi</li>
+                    <li><strong>Çok Dilli:</strong> Türkçe/İngilizce destek</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">10/17</div>
+    </div>
+
+    <!-- SLIDE 11: TEKNİK ÖZELLİKLER -->
+    <div class="slide">
+        <h2>⚙️ TEKNİK ÖZELLİKLER</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Kurulum</h3>
+                <ul>
+                    <li><strong>Tek Satır Kod</strong><br>Web sitesine kolay entegrasyon</li>
+                    <li><strong>Otomatik Güncellemeler</strong><br>Sürekli iyileştirmeler</li>
+                    <li><strong>Mobil Uyumlu</strong><br>Tüm cihazlarda çalışır</li>
+                    <li><strong>Güvenli</strong><br>Kurumsal düzeyde güvenlik</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Performans</h3>
+                <ul>
+                    <li><strong>Yanıt Süresi:</strong> &lt; 2 saniye</li>
+                    <li><strong>Uptime:</strong> %99.9</li>
+                    <li><strong>Kapasite:</strong> Sınırsız eş zamanlı kullanıcı</li>
+                    <li><strong>Dil Desteği:</strong> Türkçe, İngilizce</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">11/17</div>
+    </div>
+
+    <!-- SLIDE 12: GELECEK GELİŞTİRMELER -->
+    <div class="slide">
+        <h2>💡 GELECEK ÖZELLİKLER</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Faz 2 Özellikleri</h3>
+                <ul>
+                    <li><strong>Randevu Rezervasyonu</strong><br>Doğrudan ders programlama</li>
+                    <li><strong>Ödeme Entegrasyonu</strong><br>Online üyelik ödemeleri</li>
+                    <li><strong>Üye Portalı</strong><br>Hesap yönetimi</li>
+                    <li><strong>Gelişmiş Analitik</strong><br>Tahmine dayalı içgörüler</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Ölçeklenebilirlik</h3>
+                <ul>
+                    <li><strong>Çok Lokasyon</strong><br>Farklı şubeler</li>
+                    <li><strong>Beyaz Etiket</strong><br>Diğer spor salonlarına lisanslama</li>
+                    <li><strong>API Entegrasyonu</strong><br>Mevcut sistemlerle bağlantı</li>
+                    <li><strong>Özel Markalama</strong><br>Carrera'ya özel tasarım</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">12/17</div>
+    </div>
+
+    <!-- SLIDE 13: BAŞARI METRİKLERİ -->
+    <div class="slide">
+        <h2>📈 BAŞARI METRİKLERİ</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Temel KPI'lar</h3>
+                <ul>
+                    <li><strong>Potansiyel Müşteri Yakalama:</strong> %45 (hedef)</li>
+                    <li><strong>Yanıt Süresi:</strong> &lt; 2 saniye</li>
+                    <li><strong>Müşteri Memnuniyeti:</strong> %90+</li>
+                    <li><strong>Dönüşüm Oranı:</strong> %25</li>
+                    <li><strong>Maliyet Azaltma:</strong> %70</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Aylık Raporlama</h3>
+                <ul>
+                    <li><strong>Potansiyel Müşteri Analitiği</strong><br>Kaynak ve kalite</li>
+                    <li><strong>Sohbet Performansı</strong><br>Doğruluk ve memnuniyet</li>
+                    <li><strong>Gelir Etkisi</strong><br>Yeni üye kazanımı</li>
+                    <li><strong>Maliyet Analizi</strong><br>ROI ve verimlilik</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-number">13/17</div>
+    </div>
+
+    <!-- SLIDE 14: DEMO -->
+    <div class="slide">
+        <h2>🎬 CANLI DEMO</h2>
+        
+        <div class="highlight-box">
+            <h3>Göstereceğimiz Özellikler</h3>
+        </div>
+        
+        <div class="two-column">
+            <div>
+                <ul>
+                    <li>✅ <strong>AI Chatbot Konuşması</strong><br>Türkçe ve İngilizce</li>
+                    <li>✅ <strong>Potansiyel Müşteri Yakalama</strong><br>Otomatik form</li>
+                    <li>✅ <strong>Sesli Mesaj</strong><br>Mikrofon ile konuşma</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>✅ <strong>WhatsApp Entegrasyonu</strong><br>Ön doldurulmuş mesaj</li>
+                    <li>✅ <strong>Yönetici Paneli</strong><br>Analitik ve yönetim</li>
+                    <li>✅ <strong>Mobil Uyumluluk</strong><br>Tüm cihazlarda çalışma</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="cta-box">
+            <h3>Demo Süresi: 15-20 dakika</h3>
+            <p>Soru-Cevap: 10-15 dakika</p>
+        </div>
+        <div class="slide-number">14/17</div>
+    </div>
+
+    <!-- SLIDE 15: SONUÇ VE ÇAĞRI -->
+    <div class="slide">
+        <h2>🏆 SONUÇ</h2>
+        
+        <div class="highlight-box">
+            <h3>Bu AI chatbot çözümü Carrera Fitness için:</h3>
+            <ul style="text-align: center; list-style: none;">
+                <li>✅ <strong>3x daha fazla potansiyel müşteri</strong> yakalayacak</li>
+                <li>✅ <strong>7/24 müşteri desteği</strong> sağlayacak</li>
+                <li>✅ <strong>%70 maliyet tasarrufu</strong> yapacak</li>
+                <li>✅ <strong>%500 ROI</strong> getirecek</li>
+                <li>✅ <strong>Rekabet avantajı</strong> kazandıracak</li>
+            </ul>
+        </div>
+        
+        <div class="cta-box">
+            <h3>HAREKET ÇAĞRISI</h3>
+            <ul style="text-align: center; list-style: none;">
+                <li><strong>Bu Hafta:</strong> Demo toplantısı ve onay</li>
+                <li><strong>Gelecek Hafta:</strong> Teknik kurulum</li>
+                <li><strong>1. Ay:</strong> Tam dağıtım</li>
+                <li><strong>2. Ay:</strong> Performans incelemesi</li>
+            </ul>
+            <p style="font-size: 1.4em; margin-top: 30px;"><strong>Teknoloji hazır, uygulama basit, ROI kanıtlanmış!</strong></p>
+        </div>
+        <div class="slide-number">15/17</div>
+    </div>
+
+    <!-- SLIDE 16: İLETİŞİM -->
+    <div class="slide">
+        <h2>📞 İLETİŞİM BİLGİLERİ</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Demo ve Sorular İçin</h3>
+                <ul>
+                    <li><strong>E-posta:</strong> [your-email@domain.com]</li>
+                    <li><strong>Telefon:</strong> [your-phone-number]</li>
+                    <li><strong>Demo:</strong> Canlı gösterim her zaman mümkün</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Proje Detayları</h3>
+                <ul>
+                    <li><strong>Kurulum:</strong> 4 hafta</li>
+                    <li><strong>Maliyet:</strong> 20.000 TL + 3.000 TL/ay</li>
+                    <li><strong>ROI:</strong> %500 (ilk yıl)</li>
+                    <li><strong>Destek:</strong> 7/24 teknik yardım</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="cta-box">
+            <h3>Bu çözümü Carrera Fitness'ın müşteri etkileşimini dönüştürmek için kullanmaya hazır mısınız?</h3>
+        </div>
+        <div class="slide-number">16/17</div>
+    </div>
+
+    <!-- SLIDE 17: EKLER -->
+    <div class="slide">
+        <h2>📎 EKLENEN DOKÜMANLAR</h2>
+        
+        <div class="two-column">
+            <div>
+                <h3>Sunum Materyalleri</h3>
+                <ul>
+                    <li><strong>Detaylı Teknik Sunum</strong><br>Tüm özellikler</li>
+                    <li><strong>ROI Hesaplayıcı</strong><br>İnteraktif analiz</li>
+                    <li><strong>Uygulama Planı</strong><br>4 haftalık detay</li>
+                    <li><strong>Demo Rehberi</strong><br>Adım adım kılavuz</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Teknik Dokümanlar</h3>
+                <ul>
+                    <li><strong>Kurulum Rehberi</strong><br>Teknik gereksinimler</li>
+                    <li><strong>Yönetici Kılavuzu</strong><br>Panel kullanımı</li>
+                    <li><strong>API Dokümantasyonu</strong><br>Entegrasyon detayları</li>
+                    <li><strong>Güvenlik Raporu</strong><br>Veri koruma önlemleri</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <p><strong>Tüm dosyalar e-postanın ekinde bulunmaktadır.</strong></p>
+        </div>
+        <div class="slide-number">17/17</div>
+    </div>
+</body>
+</html>
+

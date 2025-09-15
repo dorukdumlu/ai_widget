@@ -1,0 +1,371 @@
+[
+  {
+    "timestamp": "2025-09-13T18:05:19.901Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 97,
+    "outputTokens": 59,
+    "cost": 0.000049949999999999994,
+    "message": "zumba dersleri ya da toplu sessionlar oluyor mu"
+  },
+  {
+    "timestamp": "2025-09-13T18:14:39.516Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 97,
+    "outputTokens": 54,
+    "cost": 0.000046949999999999996,
+    "message": "merhaba ben kısa sürede çok kilo vermek istiyorum"
+  },
+  {
+    "timestamp": "2025-09-13T18:14:52.829Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 93,
+    "outputTokens": 36,
+    "cost": 0.00003555,
+    "message": "tamam olur nasıl uapıcaz"
+  },
+  {
+    "timestamp": "2025-09-13T18:15:04.801Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 88,
+    "outputTokens": 36,
+    "cost": 0.00003479999999999999,
+    "message": "program istiyorum"
+  },
+  {
+    "timestamp": "2025-09-13T18:15:12.082Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 88,
+    "outputTokens": 69,
+    "cost": 0.00005459999999999999,
+    "message": "kilo verme"
+  },
+  {
+    "timestamp": "2025-09-13T18:38:47.467Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 72,
+    "cost": 0.00005684999999999999,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-13T18:57:48.935Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 66,
+    "cost": 0.00005325,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-13T18:57:52.723Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 90,
+    "outputTokens": 45,
+    "cost": 0.000040499999999999995,
+    "message": "Fiyat Bilgisi"
+  },
+  {
+    "timestamp": "2025-09-14T12:41:32.575Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 43,
+    "cost": 0.00003945,
+    "message": "Antrenman Rezervasyonu"
+  },
+  {
+    "timestamp": "2025-09-14T12:41:38.174Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 70,
+    "cost": 0.00005565,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-14T12:41:47.298Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 31,
+    "cost": 0.00003225,
+    "message": "Antrenman Rezervasyonu"
+  },
+  {
+    "timestamp": "2025-09-14T12:41:57.125Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 92,
+    "outputTokens": 34,
+    "cost": 0.0000342,
+    "message": "yarin sabah 10 da"
+  },
+  {
+    "timestamp": "2025-09-14T12:42:04.876Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 63,
+    "cost": 0.00005145,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-14T13:02:21.419Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 71,
+    "cost": 0.00005624999999999999,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-14T13:24:27.877Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 87,
+    "outputTokens": 13,
+    "cost": 0.00002085,
+    "message": "merhaba"
+  },
+  {
+    "timestamp": "2025-09-14T13:28:40.353Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 92,
+    "outputTokens": 25,
+    "cost": 0.000028799999999999995,
+    "message": "merhaba yeni uye olmak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-14T13:38:20.247Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 91,
+    "outputTokens": 35,
+    "cost": 0.000034649999999999995,
+    "message": "Antrenman Rezervasyonu"
+  },
+  {
+    "timestamp": "2025-09-14T13:38:28.626Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 90,
+    "outputTokens": 40,
+    "cost": 0.0000375,
+    "message": "sabah 12 ye"
+  },
+  {
+    "timestamp": "2025-09-14T13:39:15.834Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 92,
+    "outputTokens": 21,
+    "cost": 0.000026399999999999998,
+    "message": "merhaba uye olmak istiyorum \\"
+  },
+  {
+    "timestamp": "2025-09-14T13:50:25.344Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 195,
+    "outputTokens": 93,
+    "cost": 0.00008505,
+    "message": "merhabva uye olmak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-14T13:50:43.216Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 194,
+    "outputTokens": 71,
+    "cost": 0.0000717,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-14T13:50:52.693Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 190,
+    "outputTokens": 53,
+    "cost": 0.00006029999999999999,
+    "message": "olur"
+  },
+  {
+    "timestamp": "2025-09-14T13:51:07.947Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 193,
+    "outputTokens": 113,
+    "cost": 0.00009675,
+    "message": "uyelik secenekleri"
+  },
+  {
+    "timestamp": "2025-09-15T09:18:22.859Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 236,
+    "outputTokens": 80,
+    "cost": 0.0000834,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-15T09:28:31.513Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 45,
+    "outputTokens": 58,
+    "cost": 0.00004155,
+    "message": "Ücretsiz deneme seansı hakkında bilgi almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T09:29:12.063Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 37,
+    "outputTokens": 40,
+    "cost": 0.000029549999999999997,
+    "message": "yazilim"
+  },
+  {
+    "timestamp": "2025-09-15T09:31:52.329Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 45,
+    "outputTokens": 64,
+    "cost": 0.00004515,
+    "message": "Ücretsiz deneme seansı hakkında bilgi almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T09:34:27.053Z",
+    "tenant": "carrera-mistral",
+    "model": "gpt-4o-mini",
+    "inputTokens": 39,
+    "outputTokens": 26,
+    "cost": 0.000021449999999999996,
+    "message": "Fiyat Bilgisi"
+  },
+  {
+    "timestamp": "2025-09-15T09:45:34.917Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 413,
+    "outputTokens": 91,
+    "cost": 0.00011654999999999999,
+    "message": "Üyelik hakkında bilgi almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T09:53:47.145Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 411,
+    "outputTokens": 72,
+    "cost": 0.00010484999999999999,
+    "message": "Kişisel Antrenman"
+  },
+  {
+    "timestamp": "2025-09-15T09:54:00.162Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 411,
+    "outputTokens": 56,
+    "cost": 0.00009524999999999998,
+    "message": "olur nasil yapicaz"
+  },
+  {
+    "timestamp": "2025-09-15T09:54:13.781Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 413,
+    "outputTokens": 59,
+    "cost": 0.00009734999999999998,
+    "message": "randevu istiyorum beni arayin"
+  },
+  {
+    "timestamp": "2025-09-15T09:54:45.936Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 410,
+    "outputTokens": 77,
+    "cost": 0.00010769999999999999,
+    "message": "Fiyat Bilgisi"
+  },
+  {
+    "timestamp": "2025-09-15T09:55:45.442Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 411,
+    "outputTokens": 94,
+    "cost": 0.00011805,
+    "message": "zarada indirim var mi"
+  },
+  {
+    "timestamp": "2025-09-15T09:56:02.738Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 411,
+    "outputTokens": 69,
+    "cost": 0.00010304999999999998,
+    "message": "kiyafet almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T09:59:40.647Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 460,
+    "outputTokens": 70,
+    "cost": 0.00011099999999999999,
+    "message": "Ücretsiz deneme seansı hakkında bilgi almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T11:12:07.747Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 460,
+    "outputTokens": 78,
+    "cost": 0.0001158,
+    "message": "Ücretsiz deneme seansı hakkında bilgi almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T11:20:37.327Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 451,
+    "outputTokens": 39,
+    "cost": 0.00009104999999999999,
+    "message": "merhaba"
+  },
+  {
+    "timestamp": "2025-09-15T11:52:03.919Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 455,
+    "outputTokens": 55,
+    "cost": 0.00010125,
+    "message": "randevu almak istiyorum"
+  },
+  {
+    "timestamp": "2025-09-15T11:55:23.186Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 458,
+    "outputTokens": 46,
+    "cost": 0.0000963,
+    "message": "Fener Cimbom'un anasını sik"
+  },
+  {
+    "timestamp": "2025-09-15T11:55:37.573Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 458,
+    "outputTokens": 49,
+    "cost": 0.0000981,
+    "message": "Fener Cimbom'un anasını sik"
+  }
+]

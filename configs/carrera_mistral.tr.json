@@ -1,0 +1,62 @@
+﻿{
+  "vertical": "gym",
+  "language": "tr",
+  "brand": "Carrera Mistral",
+  "greeting": " Carrera Mistral'a hoş geldiniz! Üyelik, antrenman ve rezervasyon konularında yardımcı olabilirim. Size nasıl yardımcı olabilirim?",
+  "colors": {
+    "primary": "#1e40af",
+    "secondary": "#dc2626",
+    "accent": "#f59e0b"
+  },
+  "contact": {
+    "phone": "+90 232 123 4567",
+    "whatsapp": "+90 232 123 4567",
+    "email": "info@carreramistral.com",
+    "address": "İzmir, Türkiye"
+  },
+  "pricing": {
+    "monthly_unlimited": "1.200 TL",
+    "weekly_pass": "400 TL", 
+    "daily_entry": "150 TL",
+    "personal_training": "500 TL seans başına"
+  },
+  "hours": "Pazartesi-Pazar, 07:00  23:00",
+  "faqs": [
+    {
+      "q": "Üyelik seçenekleriniz neler?",
+      "a": "Aylık sınırsız üyelik 1.200 TL, haftalık geçiş 400 TL ve günlük giriş 150 TL. Ücretsiz deneme seansı rezerve etmemi ister misiniz?"
+    },
+    {
+      "q": "Kişisel antrenman var mı?",
+      "a": "Evet! Kişisel antrenman seans başına 500 TL'den başlıyor. Paketlerde indirimli fiyatlar mevcut. Sizi bir antrenörle buluşturayım mı?"
+    },
+    {
+      "q": "Ders veya kort nasıl rezerve edebilirim?",
+      "a": "Bu sohbet üzerinden, web sitemizden veya WhatsApp'tan rezervasyon yapabilirsiniz. Tercih ettiğiniz saati söyleyin, müsaitlik kontrol edeyim."
+    },
+    {
+      "q": "Çalışma saatleriniz nedir?",
+      "a": "Carrera Mistral Pazartesi-Pazar 07:00  23:00 arası açık. Fitness hedeflerinize ulaşmanızda size yardımcı oluyoruz!"
+    },
+    {
+      "q": "Turnuva veya etkinlik düzenliyor musunuz?",
+      "a": "Kesinlikle! Düzenli turnuvalar, fitness yarışmaları ve topluluk etkinlikleri düzenliyoruz. Bir sonraki etkinliğimiz Cumartesi 16:00'da. Sizi kaydetmemi ister misiniz?"
+    },
+    {
+      "q": "Ücretsiz deneme sunuyor musunuz?",
+      "a": "Evet! Yeni üyeler için ücretsiz deneme seansları sunuyoruz. Hemen rezerve edebilirim. Tercih ettiğiniz saat nedir?"
+    },
+    {
+      "q": "Hangi ekipmanlarınız var?",
+      "a": "Son teknoloji kardiyo ekipmanları, serbest ağırlıklar, fonksiyonel antrenman alanları ve özel kortlarımız var. Ücretsiz deneme ile kendiniz görün!"
+    }
+  ],
+  "quick_actions": [
+    "Üye Ol",
+    "Antrenman/Ders Rezerve Et", 
+    "Mevcut Üyelik",
+    "Etkinlikler ve Turnuvalar",
+    "İletişim"
+  ],
+  "system_prompt": "Carrera Mistral spor salonu için yardımcı asistan. İngilizce ve Türkçe konuşuyorsun. Fitness konusunda hevesli ol, ara sıra spor emojileri kullan (), her zaman deneme rezervasyonu yapmaya veya lead toplamaya çalış. Fiyat sorulduğunda ücretsiz denemeyi hatırlat. Kişisel antrenman için antrenörle buluşturmayı teklif et. Etkinlikler için Cumartesi 16:00 etkinliğini hatırlat. Her zaman dostane ve cesaret verici ol."
+}

@@ -1,0 +1,54 @@
+{
+  "tenant": "carrera-mistral",
+  "brand": {
+    "name": "Carrera Canl? Destek Botu",
+    "logo": "/logos/carrera-mistral.png",
+    "primaryColor": "#1e40af",
+    "secondaryColor": "#f59e0b",
+    "accentColor": "#10b981"
+  },
+  "greeting": {
+    "en": "Welcome to Carrera Mistral! How can I help you today?",
+    "tr": "Carrera Mistral'a ho? geldiniz! Bug?n size nas?l yard?mc? olabilirim?"
+  },
+  "tone": "energetic",
+  "language": "tr",
+  "whatsapp": "+905433535715",
+  "faqs": [
+    {
+      "q": "Fiyatlar?n?z nedir?",
+      "a": "Ayl?k ?yelik 1,200 TL, haftal?k 400 TL, g?nl?k 150 TL. Ki?isel antrenman 500 TL'den ba?l?yor."
+    },
+    {
+      "q": "Park yeri var m??",
+      "a": "Evet, ?yelerimiz i?in ?cretsiz otopark imkan?m?z bulunmaktad?r."
+    },
+    {
+      "q": "?al??ma saatleriniz nedir?",
+      "a": "Pazartesi-Pazar 07:00-23:00 aras? a????z."
+    }
+  ],
+  "quickActions": [
+    {
+      "label": "?ye Olmak ?stiyorum",
+      "action": "membership",
+      "emoji": ""
+    },
+    {
+      "label": "Fiyat Bilgisi",
+      "action": "pricing",
+      "emoji": ""
+    }
+  ],
+  "leadCapture": {
+    "enabled": true,
+    "fields": ["name", "phone"],
+    "message": "WhatsApp ile ileti?ime ge?mek ister misiniz?"
+  },
+  "integrations": {
+    "whatsapp": "+905433535715",
+    "calendly": "",
+    "email": ""
+  },
+  "fallbackMessage": "WhatsApp ile konu?mak ister misiniz? +90 543 353 57 15"
+}

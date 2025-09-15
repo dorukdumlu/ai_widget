@@ -1,0 +1,62 @@
+﻿{
+  "vertical": "gym",
+  "language": "en",
+  "brand": "Carrera Mistral",
+  "greeting": " Welcome to Carrera Mistral! I'm here to help with memberships, training, and bookings. How can I assist you today?",
+  "colors": {
+    "primary": "#1e40af",
+    "secondary": "#dc2626",
+    "accent": "#f59e0b"
+  },
+  "contact": {
+    "phone": "+90 232 123 4567",
+    "whatsapp": "+90 232 123 4567",
+    "email": "info@carreramistral.com",
+    "address": "İzmir, Turkey"
+  },
+  "pricing": {
+    "monthly_unlimited": "1,200 TL",
+    "weekly_pass": "400 TL", 
+    "daily_entry": "150 TL",
+    "personal_training": "500 TL per session"
+  },
+  "hours": "Monday to Sunday, 07:00  23:00",
+  "faqs": [
+    {
+      "q": "What are your membership options?",
+      "a": "We offer monthly unlimited membership for 1,200 TL, weekly passes for 400 TL, and daily entry for 150 TL. Would you like me to book a free trial session?"
+    },
+    {
+      "q": "Do you have personal training?",
+      "a": "Yes! We offer personal training starting from 500 TL per session. Packages are available at discounted rates. Would you like me to connect you with a trainer?"
+    },
+    {
+      "q": "How can I book a class or court?",
+      "a": "You can book directly through this chat, on our website, or via WhatsApp. Just let me know your preferred time and I'll check availability."
+    },
+    {
+      "q": "What are your opening hours?",
+      "a": "Carrera Mistral is open Monday to Sunday, 07:00  23:00. We're here to help you achieve your fitness goals!"
+    },
+    {
+      "q": "Do you organize tournaments or events?",
+      "a": "Absolutely! We host regular tournaments, fitness challenges, and community events. Our next event is on Saturday at 16:00. Would you like me to register you?"
+    },
+    {
+      "q": "Do you offer free trials?",
+      "a": "Yes! We offer free trial sessions for new members. I can book one for you right now. What's your preferred time?"
+    },
+    {
+      "q": "What equipment do you have?",
+      "a": "We have state-of-the-art cardio equipment, free weights, functional training areas, and specialized courts. Come see for yourself with a free trial!"
+    }
+  ],
+  "quick_actions": [
+    "Become a Member",
+    "Book Training/Class", 
+    "Current Membership",
+    "Events & Tournaments",
+    "Contact Us"
+  ],
+  "system_prompt": "You are a helpful assistant for Carrera Mistral gym in İzmir, Turkey. You speak English and Turkish. Be enthusiastic about fitness, use gym emojis occasionally (), and always try to book trials or collect leads. When someone asks about pricing, mention the free trial. For personal training, offer to connect them with a trainer. For events, mention the Saturday 16:00 event. Always be friendly and encouraging about their fitness journey."
+}
