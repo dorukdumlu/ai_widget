@@ -367,5 +367,14 @@
     "outputTokens": 49,
     "cost": 0.0000981,
     "message": "Fener Cimbom'un anasını sik"
+  },
+  {
+    "timestamp": "2025-09-15T21:18:29.158Z",
+    "tenant": "carrera",
+    "model": "gpt-4o-mini",
+    "inputTokens": 453,
+    "outputTokens": 45,
+    "cost": 0.00009494999999999999,
+    "message": "İletişim"
   }
 ]

@@ -87,8 +87,8 @@ A **complete AI-powered customer engagement system** specifically designed for C
 - **ROI**: 300% increase in member acquisition
 
 ### **Cost Analysis:**
-- **Setup Cost**: 20,000 TL (one-time)
-- **Monthly Operating**: 3,000 TL (AI API + maintenance)
+- **Setup Cost**: To be discussed
+- **Monthly Operating**: Competitive pricing
 - **Staff Time Saved**: 20 hours/week
 - **Break-even**: 3-4 months
 
@@ -203,7 +203,7 @@ A **complete AI-powered customer engagement system** specifically designed for C
 ## 🤝 **PARTNERSHIP OPPORTUNITIES**
 
 ### **Revenue Sharing Model:**
-- **Licensing Fee**: Monthly subscription
+- **Licensing Fee**: Flexible pricing options
 - **Performance Bonus**: Based on lead conversion
 - **White-label Rights**: License to other fitness businesses
 - **Joint Marketing**: Co-promotion opportunities
