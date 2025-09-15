@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# 🤖 AI-Powered Chatbot Widget for Carrera Fitness
 
 A modern, customizable AI chatbot widget designed specifically for fitness centers and gyms, featuring multi-language support, lead capture, and seamless WhatsApp integration.
@@ -291,3 +292,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ for the fitness industry**
 
 *Transform your customer experience with AI-powered conversations*
+=======
+# ai-chatbot-widget
+>>>>>>> 6dab337286be654077fa4ef758238eeb93cd0268
